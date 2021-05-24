@@ -1,0 +1,132 @@
+
+    .main-container {
+        height: 290vh;
+    }
+    .suscription-section {
+        height: 35%;
+        max-height: 650px;
+    }
+
+    .header-container {
+        position: sticky;
+        top: 0;
+        z-index: 2;
+      
+    }
+    .header__navigation {
+       position: sticky;
+       top:0;
+        height: 100%;
+        flex-direction: row;
+        background: transparent;
+    }
+    .header__container-logo {
+        margin-left: 1rem;
+    }
+    .navigation__menu {
+        display: flex;
+        width: 80%;
+        justify-content: space-between;
+        font-size: var(--navbar-font-size-tablet);
+       
+    }
+    .fi-br-calendar,
+    .fi-br-list,
+    .fi-br-laptop {
+    
+    font-size: 1.4rem;
+}
+    .img-first-container {
+        width: 50%;
+    }
+    .link-suscription {
+        padding: 1rem;
+        font-size: var(--normal-font-size-tablet);
+    }
+    .img-second-container {
+        width: 15%;
+    }
+    .menu-icon {
+        display: none;
+    }
+    .nav__title {
+        display: none;
+    }
+    .title {
+        font-size: var(--title-font-size-tablet);
+    }
+    .subtitle {
+        font-size: var(--subtitle-font-size-tablet);
+    }
+    .subtitle-2 {
+        font-size: var(--subtitle-font-size-two-tablet);
+    }
+    .paragraph {
+        font-size: var(--normal-font-size-tablet);
+    }
+    .list {
+        font-size: var(--normal-font-size-tablet);
+    }
+    .camp-topic__title {
+        width:50%;
+        
+    }
+    .row-agenda-samuel {
+        width: 90%;
+        align-self: center;
+      
+       
+    }
+    .agenda-section,
+    .samuel-section {
+        width: 100%;
+    }
+    .agenda-subtitle {
+        font-size: var(--subtitle-font-size-tablet);
+    }
+    .agenda-title, 
+    .samuel-title {
+        width: 20%;
+    }
+
+    .section-virtual__row {
+        display: flex;
+        flex-direction: row;
+        height: min-content;
+        
+    }
+    .col h4 {
+        font-size: var(--normal-font-size-tablet);
+    }
+    
+    .col {
+        flex-grow: 1;
+    }
+    .col-3 {
+        min-width: 25%;
+    }
+    .section-virtual-exp {
+        max-height: 300px;
+    }
+    .virtual-exp-title{
+        width: 50%;
+    }
+    
+    .agenda-section__row {
+        display: flex;
+        margin: 0 1rem;
+    }
+    .item {
+        flex-grow: 1;
+     }
+     .footer {
+         font-size: var(--normal-font-size-tablet);
+         height: 23%;
+     }
+     .footer__container-logo {
+         width: 35%;
+         max-width: 350px;
+     }
+     .footer-paragraph {
+         text-align: center;
+     }

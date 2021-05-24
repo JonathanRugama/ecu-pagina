@@ -1,0 +1,107 @@
+
+
+.header-container {
+    height: 6.5rem;
+    z-index: 2;
+}
+.header__navigation {
+    justify-content: flex-end;
+}
+ .navigation__menu {
+    width: 40%;
+    margin-right: 1rem;
+   
+}
+.item-menu{
+    padding: 1rem;
+
+}
+.item-menu:hover {
+    border-radius: 0.5rem;
+    background-color: #fff;
+}
+.item-menu:hover a {
+    font-weight: bold;
+}
+.item-menu:nth-child(1):hover a {
+    color: var(--first-font-color);
+   
+}
+.item-menu:nth-child(2):hover a {
+    color: var(--second-font-color);
+}
+.item-menu:nth-child(3):hover a {
+    color: var(--third-font-color);
+}
+
+
+    .fi-br-calendar,
+    .fi-br-list,
+    .fi-br-laptop {
+    
+    font-size: 1.5rem;
+}
+
+.main-container {
+  height: 235vh;
+}
+.img-first-container {
+    width: 30%;
+}
+.img-first-container:hover{
+    width: 32%;
+}
+.img-third-container {
+    width: 40%;
+     margin-right: 5rem;
+}
+.camp-topic {
+ 
+ width: 50%;
+ 
+}
+.camp-topic__title {
+   
+    width: 70%;
+}
+.camp-topic__subtitle {
+    margin-top: 3.5rem;
+}
+
+.other-topics-section {
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.agenda-section__row {
+    flex-wrap: wrap;
+}
+
+.agenda-title, 
+ .samuel-title { 
+     width: 25%;
+ }
+ .row-agenda-samuel {
+     flex-direction: row;
+     max-height: 400px;
+     justify-content: space-between;
+
+ }
+
+ .samuel-section {
+     
+     margin-left: 2rem;
+ }
+ .section-virtual-exp {
+     max-height: 300px;
+    
+ }
+
+ .card {
+     margin-top: 3rem;
+ }
+ 
+ .footer__container-logo {
+     width: 30%;
+    
+ }
